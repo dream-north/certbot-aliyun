@@ -1,0 +1,13 @@
+
+services:
+  certbot-aliyun:
+    build: .
+    environment:
+      - TZ=Asia/Shanghai
+      - ALIYUN_ACCESS_KEY_ID=
+      - ALIYUN_ACCESS_KEY_SECRET=
+      - CERTBOT_DOMAINS=
+      - CERTBOT_EMAIL=
+      - RENEW_PERIOD=86400
+    volumes:  
+      - ./letsencrypt:/etc/letsencrypt

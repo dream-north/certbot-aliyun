@@ -1,0 +1,5 @@
+certbot==2.9.0
+certbot-nginx==2.9.0
+aliyun-python-sdk-alidns==3.0.7
+tldextract==5.1.1
+pytest==8.0.2
